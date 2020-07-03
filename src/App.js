@@ -51,13 +51,12 @@ const App =(props)=> {
               <Route path='/dialogs' render={() => <DialogsContainer />} />
               <Route path='/profile/:userId?' render={() =>  WithSuspense(ProfileContainer)} />
               <Route path='/users' render={() => <UsersContainer />} />
-  
+              <Route path='/login' render={() => WithSuspense(Login)} />
               
               
               <Route path='/news' render={() => <News />} />
               <Route path='/music' render={() => <Music />} />
               <Route path='/settings' render={() => <Settings />} />
-              <Route path='/login' render={() => WithSuspense(Login)} />
               <Route path='*' render={() => <h1>404</h1>} />
               
               
