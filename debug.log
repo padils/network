@@ -1,0 +1,2 @@
+[0323/221535.446:ERROR:process_reader_win.cc(242)] ReadMemory at 0x6940e9df80 of 512 bytes failed: «апрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[0323/221536.719:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed

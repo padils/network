@@ -1,0 +1,21 @@
+
+.header{
+    grid-area: h;
+    background-color:#DF38B1;
+    border-bottom: 4px outset #DF38B1;
+  
+  }
+  .header img{
+    width: 20px;
+    padding: 5px;
+  }
+  .header a {
+    color:white;
+    text-decoration: none;  
+    padding: 10px;  
+}
+.login{
+float:right;
+padding: 10px;
+cursor: pointer;
+}

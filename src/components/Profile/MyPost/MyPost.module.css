@@ -1,0 +1,12 @@
+
+.postBlock{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-top: 2px outset rgb(93, 103, 248);
+    border-bottom: 2px outset rgb(93, 103, 248);
+    border-radius: 15px
+}
+.post {
+    margin-top: 10px;
+}

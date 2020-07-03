@@ -1,0 +1,30 @@
+.form textarea{
+    border: solid red 2px;
+
+}
+.form {
+    border: solid red 2px;
+    color: red;
+
+}
+.form span{
+    color: red;
+}
+.input{
+    padding-left:5px ;
+    border: 1px solid #cccccc; 
+   border-radius: 3px;
+   outline: none;
+   height: 20px; 
+   width: 140px; 
+   font-size: 15px; 
+   font-family: Tahoma;
+}
+.input[type='checkbox']{
+    height: 20px; 
+   width: 20px;
+}
+input[type="text"]:focus {
+    color: #000000;
+    border: 1px solid #000000
+  }

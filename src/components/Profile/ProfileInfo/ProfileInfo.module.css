@@ -1,0 +1,42 @@
+.content {
+    background-color: whitesmoke;
+    padding: 10px;
+    width:  95%;
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns:30% 70%;
+    grid-template-areas:'Photo Inf'; 
+    margin: 10px;
+    border-bottom: 2px outset rgb(93, 103, 248);
+    border-top: 2px outset rgb(93, 103, 248);
+    border-radius: 15px   
+}
+.Photo{
+   
+    float: left;
+    grid-area: Photo;
+    
+
+}
+.img{
+    width: 200px;
+    height: 300px;
+}
+
+.descriptionsBlock {
+    border-left: 1px outset black; 
+    padding: 10px; 
+    grid-area: Inf;
+    text-align: left;   
+}
+.inputFile{
+  
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-size: 10pt;
+
+}

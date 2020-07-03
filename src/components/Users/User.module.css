@@ -1,0 +1,20 @@
+.users{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    background-color: whitesmoke;
+    border-right: 2px outset rgb(93, 103, 248);
+     border-radius: 15px;
+    
+    
+}
+.users img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+
+
+}
+.pageCount{
+font-weight: bold;
+}
